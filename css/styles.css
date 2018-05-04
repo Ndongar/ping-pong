@@ -2,7 +2,7 @@ div.container {
     width: 100%;
 }
 .header{
-  background-color: black; color: white;
+  background-color:#D9FAFF ; color:#005792;
   padding: 10px;
   text-align: center;
   font-size: 30px;
@@ -11,7 +11,7 @@ div.container {
   font-size: 70px;
 }
 .about{
-  background-color: grey;
+  background-color:#005792;
   float: left;
   margin: 0;
   padding: 1em;
@@ -24,4 +24,6 @@ div.container {
 border-left: 1px solid gray;
 padding: 1em;
 overflow: hidden;
+background-color: #00BBF0;
+height: 100vh;
 }
