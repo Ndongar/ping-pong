@@ -1,0 +1,27 @@
+div.container {
+    width: 100%;
+}
+.header{
+  background-color: black; color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.header h1{
+  font-size: 70px;
+}
+.about{
+  background-color: grey;
+  float: left;
+  margin: 0;
+  padding: 1em;
+  height: 100vh;
+  padding-top: 10px;
+
+}
+.play{
+  margin-left: 170px;
+border-left: 1px solid gray;
+padding: 1em;
+overflow: hidden;
+}

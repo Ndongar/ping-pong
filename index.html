@@ -11,20 +11,37 @@
     <title>Ping-pong</title>
 </head>
 <body>
-  <div class="container-fluid">
-    <header class="page header">
-      <span class="main haeding"><p>PING PONG</p></span>
+  <div class="container">
+    <header class="header">
+      <h1>PING PONG</h1>
     </header>
+    <div class="about">
+      <h2>About ping pong</h2>
+      <h3>Created by:</h3>
+      <p>Ndonga</p>
+      <h3>GitHub Username/URL:</h3>
+      <p>Ndongar</p>
+      <h3>Level 2 Test for:</h3>
+      <p>Java</p>
+    </div>
+    <div class="play">
+      <h2>Let's play!</h2>
+      <h3>Rules:</h3>
+      <p>ping pong will count up to your number from 1 with the folloeingexceptions:</p>
+      <ol>
+        <li>Numbers divisible by 3 are replaced with "ping"</li>
+        <li>Numbers divisible by 5 are replaced with "pong"</li>
+        <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+      </ol>
+      <form id="ping">
+          <label for="ping pong">Enter your number here:</label>
+          <input id="number" type="text">
+          <button type="submit" class="btn">ping pong!</button>
+      </form>
 
-    <form id="ping">
-      <div class="form-group">
-        <label for="ping pong">Enter your number here:</
-label>
-        <input id="number" type="text">
-      </div>
+    </div>
 
-      <button type="submit" class="btn">ping pong!</button>
-    </form>
+    </div>
 
     <div id="result">
 
