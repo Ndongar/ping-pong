@@ -1,5 +1,5 @@
 //Business Logic
-/* var input = parseInt(prompt('Enter a number')); */
+
 
 var pingPong = function(input) {
  var result = [];
