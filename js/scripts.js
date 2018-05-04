@@ -21,7 +21,7 @@ return(result)
 $(document).ready(function(){
     $('#ping').submit(function(e){
    $("#result").empty();
-     e.preventDefault();
+     event.preventDefault();
    var input = parseInt($('input#number').val());
      var output = pingPong(input);
 
