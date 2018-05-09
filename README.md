@@ -11,4 +11,4 @@ Moringa Prep independent project.This is a game that helps refresh someones mind
 3. Numbers divisible by 15 are replaced with "pingpong"
 
 # Link to deployed website
-https://github.com/Ndongar/ping-pong
+https://ndongar.github.io/ping-pong/
